@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cronometro</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div class="image">
+      <img src="img/clock.png" />
+      <div class="titulo">
+        <h1>Nunca é perda de tempo</h1>
+        <br />
+        <h2>Se você consegue</h2>
+        <br />
+        <h3>Aprender algo</h3>
+      </div>
+    </div>
+
+    <div class="numbers">
+      <p>
+        <span id="horas">00</span>:<span id="minutos">00</span>:<span id="segundos">00</span>:<span id="milisegundos">000</span>
+      </p>
+      <div class="buttons">
+        <button id="btn1" onclick="init()">Iniciar</button>
+        <button id="btn2" onclick="pause()">Pausar</button>
+        <button id="btn3" onclick="reset()">Resetar</button>
+      </div>
+    </div>
+  </body>
+</html>
